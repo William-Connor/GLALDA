@@ -1,0 +1,28 @@
+wandb_version: 1
+
+att_drop_rate:
+  value: 0.1
+dataset:
+  value: dataset1
+decay:
+  value: 2.2682038387837413e-06
+fold:
+  value: 0
+gan_in_channels:
+  value: 1147
+gan_out_channels:
+  value: 8
+hid:
+  value: 64
+hid1:
+  value: 256
+hid2:
+  value: 64
+lr:
+  value: 0.0001
+mlp_layer2:
+  value: 1
+mlp_layer3:
+  value: 256
+n_head:
+  value: 1

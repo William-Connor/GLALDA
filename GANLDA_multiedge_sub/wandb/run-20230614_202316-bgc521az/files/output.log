@@ -1,0 +1,103 @@
+
+wandb: logging graph, to disable use `wandb.watch(log_graph=False)`
+the 1 times train_loss is tensor(0.6924, grad_fn=<BinaryCrossEntropyBackward0>)
+the 1 times test_loss is tensor(0.5851, grad_fn=<BinaryCrossEntropyBackward0>)
+0.7617249657064472 0.7991426511540015 0.6824074074074075 0.8408304498269896 0.45 0.586248492159228
+the 2 times train_loss is tensor(0.5824, grad_fn=<BinaryCrossEntropyBackward0>)
+the 2 times test_loss is tensor(50., grad_fn=<BinaryCrossEntropyBackward0>)
+0.5 0.75 0.5 0.5 1.0 0.6666666666666666
+the 3 times train_loss is tensor(49.9773, grad_fn=<BinaryCrossEntropyBackward0>)
+the 3 times test_loss is tensor(50., grad_fn=<BinaryCrossEntropyBackward0>)
+0.5 0.75 0.5 0.5 1.0 0.6666666666666666
+the 4 times train_loss is tensor(49.9769, grad_fn=<BinaryCrossEntropyBackward0>)
+the 4 times test_loss is tensor(50., grad_fn=<BinaryCrossEntropyBackward0>)
+0.5 0.75 0.5 0.5 1.0 0.6666666666666666
+the 5 times train_loss is tensor(49.9768, grad_fn=<BinaryCrossEntropyBackward0>)
+the 5 times test_loss is tensor(50., grad_fn=<BinaryCrossEntropyBackward0>)
+0.5 0.75 0.5 0.5 1.0 0.6666666666666666
+the 6 times train_loss is tensor(49.9768, grad_fn=<BinaryCrossEntropyBackward0>)
+the 6 times test_loss is tensor(50., grad_fn=<BinaryCrossEntropyBackward0>)
+0.5 0.75 0.5 0.5 1.0 0.6666666666666666
+the 7 times train_loss is tensor(49.9768, grad_fn=<BinaryCrossEntropyBackward0>)
+the 7 times test_loss is tensor(50., grad_fn=<BinaryCrossEntropyBackward0>)
+0.5 0.75 0.5 0.5 1.0 0.6666666666666666
+the 8 times train_loss is tensor(49.9768, grad_fn=<BinaryCrossEntropyBackward0>)
+the 8 times test_loss is tensor(50., grad_fn=<BinaryCrossEntropyBackward0>)
+0.5 0.75 0.5 0.5 1.0 0.6666666666666666
+the 9 times train_loss is tensor(49.9768, grad_fn=<BinaryCrossEntropyBackward0>)
+the 9 times test_loss is tensor(50., grad_fn=<BinaryCrossEntropyBackward0>)
+0.5 0.75 0.5 0.5 1.0 0.6666666666666666
+the 10 times train_loss is tensor(49.9768, grad_fn=<BinaryCrossEntropyBackward0>)
+the 10 times test_loss is tensor(50., grad_fn=<BinaryCrossEntropyBackward0>)
+0.5 0.75 0.5 0.5 1.0 0.6666666666666666
+the 11 times train_loss is tensor(49.9768, grad_fn=<BinaryCrossEntropyBackward0>)
+the 11 times test_loss is tensor(50., grad_fn=<BinaryCrossEntropyBackward0>)
+0.5 0.75 0.5 0.5 1.0 0.6666666666666666
+the 12 times train_loss is tensor(49.9768, grad_fn=<BinaryCrossEntropyBackward0>)
+the 12 times test_loss is tensor(50., grad_fn=<BinaryCrossEntropyBackward0>)
+0.5 0.75 0.5 0.5 1.0 0.6666666666666666
+the 13 times train_loss is tensor(49.9768, grad_fn=<BinaryCrossEntropyBackward0>)
+the 13 times test_loss is tensor(50., grad_fn=<BinaryCrossEntropyBackward0>)
+0.5 0.75 0.5 0.5 1.0 0.6666666666666666
+the 14 times train_loss is tensor(49.9768, grad_fn=<BinaryCrossEntropyBackward0>)
+the 14 times test_loss is tensor(50., grad_fn=<BinaryCrossEntropyBackward0>)
+0.5 0.75 0.5 0.5 1.0 0.6666666666666666
+the 15 times train_loss is tensor(49.9768, grad_fn=<BinaryCrossEntropyBackward0>)
+the 15 times test_loss is tensor(50., grad_fn=<BinaryCrossEntropyBackward0>)
+0.5 0.75 0.5 0.5 1.0 0.6666666666666666
+the 16 times train_loss is tensor(49.9768, grad_fn=<BinaryCrossEntropyBackward0>)
+the 16 times test_loss is tensor(50., grad_fn=<BinaryCrossEntropyBackward0>)
+0.5 0.75 0.5 0.5 1.0 0.6666666666666666
+the 17 times train_loss is tensor(49.9768, grad_fn=<BinaryCrossEntropyBackward0>)
+the 17 times test_loss is tensor(50., grad_fn=<BinaryCrossEntropyBackward0>)
+0.5 0.75 0.5 0.5 1.0 0.6666666666666666
+the 18 times train_loss is tensor(49.9768, grad_fn=<BinaryCrossEntropyBackward0>)
+the 18 times test_loss is tensor(50., grad_fn=<BinaryCrossEntropyBackward0>)
+0.5 0.75 0.5 0.5 1.0 0.6666666666666666
+the 19 times train_loss is tensor(49.9768, grad_fn=<BinaryCrossEntropyBackward0>)
+the 19 times test_loss is tensor(50., grad_fn=<BinaryCrossEntropyBackward0>)
+0.5 0.75 0.5 0.5 1.0 0.6666666666666666
+the 20 times train_loss is tensor(49.9768, grad_fn=<BinaryCrossEntropyBackward0>)
+the 20 times test_loss is tensor(50., grad_fn=<BinaryCrossEntropyBackward0>)
+0.5 0.75 0.5 0.5 1.0 0.6666666666666666
+the 21 times train_loss is tensor(49.9768, grad_fn=<BinaryCrossEntropyBackward0>)
+the 21 times test_loss is tensor(50., grad_fn=<BinaryCrossEntropyBackward0>)
+0.5 0.75 0.5 0.5 1.0 0.6666666666666666
+the 22 times train_loss is tensor(49.9768, grad_fn=<BinaryCrossEntropyBackward0>)
+the 22 times test_loss is tensor(50., grad_fn=<BinaryCrossEntropyBackward0>)
+0.5 0.75 0.5 0.5 1.0 0.6666666666666666
+the 23 times train_loss is tensor(49.9768, grad_fn=<BinaryCrossEntropyBackward0>)
+the 23 times test_loss is tensor(50., grad_fn=<BinaryCrossEntropyBackward0>)
+0.5 0.75 0.5 0.5 1.0 0.6666666666666666
+the 24 times train_loss is tensor(49.9768, grad_fn=<BinaryCrossEntropyBackward0>)
+the 24 times test_loss is tensor(50., grad_fn=<BinaryCrossEntropyBackward0>)
+0.5 0.75 0.5 0.5 1.0 0.6666666666666666
+the 25 times train_loss is tensor(49.9768, grad_fn=<BinaryCrossEntropyBackward0>)
+the 25 times test_loss is tensor(50., grad_fn=<BinaryCrossEntropyBackward0>)
+0.5 0.75 0.5 0.5 1.0 0.6666666666666666
+the 26 times train_loss is tensor(49.9768, grad_fn=<BinaryCrossEntropyBackward0>)
+the 26 times test_loss is tensor(50., grad_fn=<BinaryCrossEntropyBackward0>)
+0.5 0.75 0.5 0.5 1.0 0.6666666666666666
+the 27 times train_loss is tensor(49.9768, grad_fn=<BinaryCrossEntropyBackward0>)
+the 27 times test_loss is tensor(50., grad_fn=<BinaryCrossEntropyBackward0>)
+0.5 0.75 0.5 0.5 1.0 0.6666666666666666
+the 28 times train_loss is tensor(49.9768, grad_fn=<BinaryCrossEntropyBackward0>)
+the 28 times test_loss is tensor(50., grad_fn=<BinaryCrossEntropyBackward0>)
+0.5 0.75 0.5 0.5 1.0 0.6666666666666666
+the 29 times train_loss is tensor(49.9768, grad_fn=<BinaryCrossEntropyBackward0>)
+the 29 times test_loss is tensor(50., grad_fn=<BinaryCrossEntropyBackward0>)
+0.5 0.75 0.5 0.5 1.0 0.6666666666666666
+the 30 times train_loss is tensor(49.9768, grad_fn=<BinaryCrossEntropyBackward0>)
+the 30 times test_loss is tensor(50., grad_fn=<BinaryCrossEntropyBackward0>)
+0.5 0.75 0.5 0.5 1.0 0.6666666666666666
+the 31 times train_loss is tensor(49.9768, grad_fn=<BinaryCrossEntropyBackward0>)
+the 31 times test_loss is tensor(50., grad_fn=<BinaryCrossEntropyBackward0>)
+0.5 0.75 0.5 0.5 1.0 0.6666666666666666
+the 32 times train_loss is tensor(49.9768, grad_fn=<BinaryCrossEntropyBackward0>)
+the 32 times test_loss is tensor(50., grad_fn=<BinaryCrossEntropyBackward0>)
+0.5 0.75 0.5 0.5 1.0 0.6666666666666666
+the 33 times train_loss is tensor(49.9768, grad_fn=<BinaryCrossEntropyBackward0>)
+the 33 times test_loss is tensor(50., grad_fn=<BinaryCrossEntropyBackward0>)
+0.5 0.75 0.5 0.5 1.0 0.6666666666666666
+the 34 times train_loss is tensor(49.9768, grad_fn=<BinaryCrossEntropyBackward0>)
+the 34 times test_loss is tensor(50., grad_fn=<BinaryCrossEntropyBackward0>)

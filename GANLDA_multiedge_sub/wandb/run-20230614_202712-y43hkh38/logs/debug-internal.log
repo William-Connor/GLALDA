@@ -1,0 +1,373 @@
+2023-06-14 20:27:12,617 INFO    StreamThr :21476 [internal.py:wandb_internal():86] W&B internal server running at pid: 21476, started at: 2023-06-14 20:27:12.616382
+2023-06-14 20:27:12,618 DEBUG   HandlerThread:21476 [handler.py:handle_request():144] handle_request: status
+2023-06-14 20:27:12,628 INFO    WriterThread:21476 [datastore.py:open_for_write():85] open: E:\important\Transformer\GANLDA1-master\wandb\run-20230614_202712-y43hkh38\run-y43hkh38.wandb
+2023-06-14 20:27:12,629 DEBUG   SenderThread:21476 [sender.py:send():369] send: header
+2023-06-14 20:27:12,630 DEBUG   SenderThread:21476 [sender.py:send():369] send: run
+2023-06-14 20:27:13,394 INFO    SenderThread:21476 [dir_watcher.py:__init__():211] watching files in: E:\important\Transformer\GANLDA1-master\wandb\run-20230614_202712-y43hkh38\files
+2023-06-14 20:27:13,395 INFO    SenderThread:21476 [sender.py:_start_run_threads():1100] run started: y43hkh38 with start time 1686745632.620382
+2023-06-14 20:27:13,395 DEBUG   SenderThread:21476 [sender.py:send_request():396] send_request: summary_record
+2023-06-14 20:27:13,395 INFO    SenderThread:21476 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-06-14 20:27:13,402 DEBUG   HandlerThread:21476 [handler.py:handle_request():144] handle_request: check_version
+2023-06-14 20:27:13,403 DEBUG   SenderThread:21476 [sender.py:send_request():396] send_request: check_version
+2023-06-14 20:27:13,692 DEBUG   HandlerThread:21476 [handler.py:handle_request():144] handle_request: run_start
+2023-06-14 20:27:13,724 DEBUG   HandlerThread:21476 [system_info.py:__init__():31] System info init
+2023-06-14 20:27:13,724 DEBUG   HandlerThread:21476 [system_info.py:__init__():46] System info init done
+2023-06-14 20:27:13,724 INFO    HandlerThread:21476 [system_monitor.py:start():181] Starting system monitor
+2023-06-14 20:27:13,724 INFO    SystemMonitor:21476 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-06-14 20:27:13,725 INFO    HandlerThread:21476 [system_monitor.py:probe():201] Collecting system info
+2023-06-14 20:27:13,729 INFO    SystemMonitor:21476 [interfaces.py:start():190] Started cpu monitoring
+2023-06-14 20:27:13,730 INFO    SystemMonitor:21476 [interfaces.py:start():190] Started disk monitoring
+2023-06-14 20:27:13,731 INFO    SystemMonitor:21476 [interfaces.py:start():190] Started gpu monitoring
+2023-06-14 20:27:13,731 INFO    SystemMonitor:21476 [interfaces.py:start():190] Started memory monitoring
+2023-06-14 20:27:13,749 INFO    SystemMonitor:21476 [interfaces.py:start():190] Started network monitoring
+2023-06-14 20:27:13,755 DEBUG   HandlerThread:21476 [system_info.py:probe():195] Probing system
+2023-06-14 20:27:13,755 DEBUG   HandlerThread:21476 [system_info.py:probe():240] Probing system done
+2023-06-14 20:27:13,755 DEBUG   HandlerThread:21476 [system_monitor.py:probe():210] {'os': 'Windows-10-10.0.19045-SP0', 'python': '3.10.10', 'heartbeatAt': '2023-06-14T12:27:13.755311', 'startedAt': '2023-06-14T12:27:12.592383', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'E:\\important\\Transformer\\GANLDA1-master\\main2.py', 'codePath': 'main2.py', 'host': 'DESKTOP-6CHOV3A', 'username': '»§Õñ¿µ', 'executable': 'E:\\Anaconda\\envs\\py310\\python.exe', 'cpu_count': 14, 'cpu_count_logical': 20, 'cpu_freq': {'current': 2700.0, 'min': 0.0, 'max': 2700.0}, 'cpu_freq_per_core': [{'current': 2700.0, 'min': 0.0, 'max': 2700.0}], 'disk': {'total': 324.71972274780273, 'used': 161.1875877380371}, 'gpu': 'NVIDIA GeForce RTX 3060 Laptop GPU', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 3060 Laptop GPU', 'memory_total': 6442450944}], 'memory': {'total': 15.730949401855469}}
+2023-06-14 20:27:13,755 INFO    HandlerThread:21476 [system_monitor.py:probe():211] Finished collecting system info
+2023-06-14 20:27:13,755 INFO    HandlerThread:21476 [system_monitor.py:probe():214] Publishing system info
+2023-06-14 20:27:13,755 DEBUG   HandlerThread:21476 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-06-14 20:27:13,756 DEBUG   HandlerThread:21476 [system_info.py:_save_pip():67] Saving pip packages done
+2023-06-14 20:27:13,756 DEBUG   HandlerThread:21476 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-06-14 20:27:13,765 ERROR   gpu       :21476 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-06-14 20:27:14,396 INFO    Thread-12 :21476 [dir_watcher.py:_on_file_created():272] file/dir created: E:\important\Transformer\GANLDA1-master\wandb\run-20230614_202712-y43hkh38\files\conda-environment.yaml
+2023-06-14 20:27:14,396 INFO    Thread-12 :21476 [dir_watcher.py:_on_file_created():272] file/dir created: E:\important\Transformer\GANLDA1-master\wandb\run-20230614_202712-y43hkh38\files\wandb-summary.json
+2023-06-14 20:27:14,397 INFO    Thread-12 :21476 [dir_watcher.py:_on_file_created():272] file/dir created: E:\important\Transformer\GANLDA1-master\wandb\run-20230614_202712-y43hkh38\files\requirements.txt
+2023-06-14 20:27:15,778 ERROR   gpu       :21476 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-06-14 20:27:17,794 ERROR   gpu       :21476 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-06-14 20:27:17,805 DEBUG   HandlerThread:21476 [system_info.py:_save_conda():86] Saving conda packages done
+2023-06-14 20:27:17,806 INFO    HandlerThread:21476 [system_monitor.py:probe():216] Finished publishing system info
+2023-06-14 20:27:17,816 DEBUG   HandlerThread:21476 [handler.py:handle_request():144] handle_request: status_report
+2023-06-14 20:27:17,816 DEBUG   SenderThread:21476 [sender.py:send():369] send: files
+2023-06-14 20:27:17,816 INFO    SenderThread:21476 [sender.py:_save_file():1354] saving file wandb-metadata.json with policy now
+2023-06-14 20:27:17,824 DEBUG   HandlerThread:21476 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-14 20:27:17,825 DEBUG   SenderThread:21476 [sender.py:send_request():396] send_request: stop_status
+2023-06-14 20:27:18,213 DEBUG   SenderThread:21476 [sender.py:send():369] send: telemetry
+2023-06-14 20:27:18,213 DEBUG   SenderThread:21476 [sender.py:send():369] send: telemetry
+2023-06-14 20:27:18,426 INFO    Thread-12 :21476 [dir_watcher.py:_on_file_modified():289] file/dir modified: E:\important\Transformer\GANLDA1-master\wandb\run-20230614_202712-y43hkh38\files\conda-environment.yaml
+2023-06-14 20:27:18,426 INFO    Thread-12 :21476 [dir_watcher.py:_on_file_created():272] file/dir created: E:\important\Transformer\GANLDA1-master\wandb\run-20230614_202712-y43hkh38\files\wandb-metadata.json
+2023-06-14 20:27:18,426 INFO    Thread-12 :21476 [dir_watcher.py:_on_file_created():272] file/dir created: E:\important\Transformer\GANLDA1-master\wandb\run-20230614_202712-y43hkh38\files\output.log
+2023-06-14 20:27:18,715 INFO    wandb-upload_0:21476 [upload_job.py:push():133] Uploaded file C:\Users\hukang\AppData\Local\Temp\tmpprjhit86wandb\20driii9-wandb-metadata.json
+2023-06-14 20:27:18,948 DEBUG   SenderThread:21476 [sender.py:send():369] send: files
+2023-06-14 20:27:18,949 INFO    SenderThread:21476 [sender.py:_save_file():1354] saving file media\graph\graph_0_summary_81f4161f19c751ba1535.graph.json with policy now
+2023-06-14 20:27:18,949 DEBUG   SenderThread:21476 [sender.py:send_request():396] send_request: summary_record
+2023-06-14 20:27:18,950 INFO    SenderThread:21476 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-06-14 20:27:19,432 INFO    Thread-12 :21476 [dir_watcher.py:_on_file_modified():289] file/dir modified: E:\important\Transformer\GANLDA1-master\wandb\run-20230614_202712-y43hkh38\files\wandb-summary.json
+2023-06-14 20:27:19,432 INFO    Thread-12 :21476 [dir_watcher.py:_on_file_created():272] file/dir created: E:\important\Transformer\GANLDA1-master\wandb\run-20230614_202712-y43hkh38\files\media\graph\graph_0_summary_81f4161f19c751ba1535.graph.json
+2023-06-14 20:27:19,433 INFO    Thread-12 :21476 [dir_watcher.py:_on_file_created():272] file/dir created: E:\important\Transformer\GANLDA1-master\wandb\run-20230614_202712-y43hkh38\files\media
+2023-06-14 20:27:19,434 INFO    Thread-12 :21476 [dir_watcher.py:_on_file_created():272] file/dir created: E:\important\Transformer\GANLDA1-master\wandb\run-20230614_202712-y43hkh38\files\media\graph
+2023-06-14 20:27:19,695 INFO    wandb-upload_0:21476 [upload_job.py:push():133] Uploaded file C:\Users\hukang\AppData\Local\Temp\tmpprjhit86wandb\nxmlgyvh-media/graph/graph_0_summary_81f4161f19c751ba1535.graph.json
+2023-06-14 20:27:19,831 ERROR   gpu       :21476 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-06-14 20:27:20,423 INFO    wandb-upload_0:21476 [upload_job.py:push():133] Uploaded file C:\Users\hukang\AppData\Local\Temp\tmpprjhit86wandb\cgouq0km-media/graph/graph_0_summary_81f4161f19c751ba1535.graph.json
+2023-06-14 20:27:20,436 INFO    Thread-12 :21476 [dir_watcher.py:_on_file_modified():289] file/dir modified: E:\important\Transformer\GANLDA1-master\wandb\run-20230614_202712-y43hkh38\files\output.log
+2023-06-14 20:27:20,742 DEBUG   HandlerThread:21476 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-14 20:27:20,745 DEBUG   SenderThread:21476 [sender.py:send():369] send: history
+2023-06-14 20:27:20,745 DEBUG   SenderThread:21476 [sender.py:send_request():396] send_request: summary_record
+2023-06-14 20:27:20,746 INFO    SenderThread:21476 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-06-14 20:27:21,444 INFO    Thread-12 :21476 [dir_watcher.py:_on_file_modified():289] file/dir modified: E:\important\Transformer\GANLDA1-master\wandb\run-20230614_202712-y43hkh38\files\wandb-summary.json
+2023-06-14 20:27:21,852 ERROR   gpu       :21476 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-06-14 20:27:22,458 INFO    Thread-12 :21476 [dir_watcher.py:_on_file_modified():289] file/dir modified: E:\important\Transformer\GANLDA1-master\wandb\run-20230614_202712-y43hkh38\files\output.log
+2023-06-14 20:27:23,478 DEBUG   HandlerThread:21476 [handler.py:handle_request():144] handle_request: status_report
+2023-06-14 20:27:23,488 DEBUG   HandlerThread:21476 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-14 20:27:23,490 DEBUG   SenderThread:21476 [sender.py:send():369] send: history
+2023-06-14 20:27:23,490 DEBUG   SenderThread:21476 [sender.py:send_request():396] send_request: summary_record
+2023-06-14 20:27:23,490 INFO    SenderThread:21476 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-06-14 20:27:23,883 ERROR   gpu       :21476 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-06-14 20:27:24,474 INFO    Thread-12 :21476 [dir_watcher.py:_on_file_modified():289] file/dir modified: E:\important\Transformer\GANLDA1-master\wandb\run-20230614_202712-y43hkh38\files\output.log
+2023-06-14 20:27:24,474 INFO    Thread-12 :21476 [dir_watcher.py:_on_file_modified():289] file/dir modified: E:\important\Transformer\GANLDA1-master\wandb\run-20230614_202712-y43hkh38\files\wandb-summary.json
+2023-06-14 20:27:25,912 ERROR   gpu       :21476 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-06-14 20:27:26,494 INFO    Thread-12 :21476 [dir_watcher.py:_on_file_modified():289] file/dir modified: E:\important\Transformer\GANLDA1-master\wandb\run-20230614_202712-y43hkh38\files\output.log
+2023-06-14 20:27:26,650 DEBUG   HandlerThread:21476 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-14 20:27:26,653 DEBUG   SenderThread:21476 [sender.py:send():369] send: history
+2023-06-14 20:27:26,653 DEBUG   SenderThread:21476 [sender.py:send_request():396] send_request: summary_record
+2023-06-14 20:27:26,654 INFO    SenderThread:21476 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-06-14 20:27:27,497 INFO    Thread-12 :21476 [dir_watcher.py:_on_file_modified():289] file/dir modified: E:\important\Transformer\GANLDA1-master\wandb\run-20230614_202712-y43hkh38\files\wandb-summary.json
+2023-06-14 20:27:27,938 ERROR   gpu       :21476 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-06-14 20:27:28,509 INFO    Thread-12 :21476 [dir_watcher.py:_on_file_modified():289] file/dir modified: E:\important\Transformer\GANLDA1-master\wandb\run-20230614_202712-y43hkh38\files\output.log
+2023-06-14 20:27:28,638 DEBUG   HandlerThread:21476 [handler.py:handle_request():144] handle_request: status_report
+2023-06-14 20:27:29,652 DEBUG   HandlerThread:21476 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-14 20:27:29,654 DEBUG   SenderThread:21476 [sender.py:send():369] send: history
+2023-06-14 20:27:29,654 DEBUG   SenderThread:21476 [sender.py:send_request():396] send_request: summary_record
+2023-06-14 20:27:29,655 INFO    SenderThread:21476 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-06-14 20:27:29,950 ERROR   gpu       :21476 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-06-14 20:27:30,524 INFO    Thread-12 :21476 [dir_watcher.py:_on_file_modified():289] file/dir modified: E:\important\Transformer\GANLDA1-master\wandb\run-20230614_202712-y43hkh38\files\output.log
+2023-06-14 20:27:30,524 INFO    Thread-12 :21476 [dir_watcher.py:_on_file_modified():289] file/dir modified: E:\important\Transformer\GANLDA1-master\wandb\run-20230614_202712-y43hkh38\files\wandb-summary.json
+2023-06-14 20:27:31,978 ERROR   gpu       :21476 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-06-14 20:27:32,506 DEBUG   HandlerThread:21476 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-14 20:27:32,508 DEBUG   SenderThread:21476 [sender.py:send():369] send: history
+2023-06-14 20:27:32,508 DEBUG   SenderThread:21476 [sender.py:send_request():396] send_request: summary_record
+2023-06-14 20:27:32,509 INFO    SenderThread:21476 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-06-14 20:27:32,548 INFO    Thread-12 :21476 [dir_watcher.py:_on_file_modified():289] file/dir modified: E:\important\Transformer\GANLDA1-master\wandb\run-20230614_202712-y43hkh38\files\output.log
+2023-06-14 20:27:32,548 INFO    Thread-12 :21476 [dir_watcher.py:_on_file_modified():289] file/dir modified: E:\important\Transformer\GANLDA1-master\wandb\run-20230614_202712-y43hkh38\files\wandb-summary.json
+2023-06-14 20:27:33,327 DEBUG   HandlerThread:21476 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-14 20:27:33,327 DEBUG   SenderThread:21476 [sender.py:send_request():396] send_request: stop_status
+2023-06-14 20:27:34,004 ERROR   gpu       :21476 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-06-14 20:27:34,450 DEBUG   HandlerThread:21476 [handler.py:handle_request():144] handle_request: status_report
+2023-06-14 20:27:34,567 INFO    Thread-12 :21476 [dir_watcher.py:_on_file_modified():289] file/dir modified: E:\important\Transformer\GANLDA1-master\wandb\run-20230614_202712-y43hkh38\files\output.log
+2023-06-14 20:27:35,446 DEBUG   HandlerThread:21476 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-14 20:27:35,448 DEBUG   SenderThread:21476 [sender.py:send():369] send: history
+2023-06-14 20:27:35,448 DEBUG   SenderThread:21476 [sender.py:send_request():396] send_request: summary_record
+2023-06-14 20:27:35,449 INFO    SenderThread:21476 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-06-14 20:27:35,571 INFO    Thread-12 :21476 [dir_watcher.py:_on_file_modified():289] file/dir modified: E:\important\Transformer\GANLDA1-master\wandb\run-20230614_202712-y43hkh38\files\wandb-summary.json
+2023-06-14 20:27:36,029 ERROR   gpu       :21476 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-06-14 20:27:36,580 INFO    Thread-12 :21476 [dir_watcher.py:_on_file_modified():289] file/dir modified: E:\important\Transformer\GANLDA1-master\wandb\run-20230614_202712-y43hkh38\files\output.log
+2023-06-14 20:27:38,053 ERROR   gpu       :21476 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-06-14 20:27:38,214 DEBUG   HandlerThread:21476 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-14 20:27:38,215 DEBUG   SenderThread:21476 [sender.py:send():369] send: history
+2023-06-14 20:27:38,215 DEBUG   SenderThread:21476 [sender.py:send_request():396] send_request: summary_record
+2023-06-14 20:27:38,216 INFO    SenderThread:21476 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-06-14 20:27:38,606 INFO    Thread-12 :21476 [dir_watcher.py:_on_file_modified():289] file/dir modified: E:\important\Transformer\GANLDA1-master\wandb\run-20230614_202712-y43hkh38\files\output.log
+2023-06-14 20:27:38,607 INFO    Thread-12 :21476 [dir_watcher.py:_on_file_modified():289] file/dir modified: E:\important\Transformer\GANLDA1-master\wandb\run-20230614_202712-y43hkh38\files\wandb-summary.json
+2023-06-14 20:27:40,062 DEBUG   HandlerThread:21476 [handler.py:handle_request():144] handle_request: status_report
+2023-06-14 20:27:40,080 ERROR   gpu       :21476 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-06-14 20:27:40,632 INFO    Thread-12 :21476 [dir_watcher.py:_on_file_modified():289] file/dir modified: E:\important\Transformer\GANLDA1-master\wandb\run-20230614_202712-y43hkh38\files\output.log
+2023-06-14 20:27:41,016 DEBUG   HandlerThread:21476 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-14 20:27:41,018 DEBUG   SenderThread:21476 [sender.py:send():369] send: history
+2023-06-14 20:27:41,018 DEBUG   SenderThread:21476 [sender.py:send_request():396] send_request: summary_record
+2023-06-14 20:27:41,019 INFO    SenderThread:21476 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-06-14 20:27:41,638 INFO    Thread-12 :21476 [dir_watcher.py:_on_file_modified():289] file/dir modified: E:\important\Transformer\GANLDA1-master\wandb\run-20230614_202712-y43hkh38\files\wandb-summary.json
+2023-06-14 20:27:42,109 ERROR   gpu       :21476 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-06-14 20:27:42,650 INFO    Thread-12 :21476 [dir_watcher.py:_on_file_modified():289] file/dir modified: E:\important\Transformer\GANLDA1-master\wandb\run-20230614_202712-y43hkh38\files\output.log
+2023-06-14 20:27:43,900 DEBUG   HandlerThread:21476 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-14 20:27:43,901 DEBUG   SenderThread:21476 [sender.py:send():369] send: history
+2023-06-14 20:27:43,902 DEBUG   SenderThread:21476 [sender.py:send_request():396] send_request: summary_record
+2023-06-14 20:27:43,902 INFO    SenderThread:21476 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-06-14 20:27:44,165 ERROR   gpu       :21476 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-06-14 20:27:44,672 INFO    Thread-12 :21476 [dir_watcher.py:_on_file_modified():289] file/dir modified: E:\important\Transformer\GANLDA1-master\wandb\run-20230614_202712-y43hkh38\files\output.log
+2023-06-14 20:27:44,672 INFO    Thread-12 :21476 [dir_watcher.py:_on_file_modified():289] file/dir modified: E:\important\Transformer\GANLDA1-master\wandb\run-20230614_202712-y43hkh38\files\wandb-summary.json
+2023-06-14 20:27:45,747 DEBUG   HandlerThread:21476 [handler.py:handle_request():144] handle_request: status_report
+2023-06-14 20:27:46,186 ERROR   gpu       :21476 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-06-14 20:27:46,675 DEBUG   HandlerThread:21476 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-14 20:27:46,676 DEBUG   SenderThread:21476 [sender.py:send():369] send: history
+2023-06-14 20:27:46,677 DEBUG   SenderThread:21476 [sender.py:send_request():396] send_request: summary_record
+2023-06-14 20:27:46,678 INFO    SenderThread:21476 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-06-14 20:27:46,696 INFO    Thread-12 :21476 [dir_watcher.py:_on_file_modified():289] file/dir modified: E:\important\Transformer\GANLDA1-master\wandb\run-20230614_202712-y43hkh38\files\config.yaml
+2023-06-14 20:27:46,697 INFO    Thread-12 :21476 [dir_watcher.py:_on_file_modified():289] file/dir modified: E:\important\Transformer\GANLDA1-master\wandb\run-20230614_202712-y43hkh38\files\output.log
+2023-06-14 20:27:46,697 INFO    Thread-12 :21476 [dir_watcher.py:_on_file_modified():289] file/dir modified: E:\important\Transformer\GANLDA1-master\wandb\run-20230614_202712-y43hkh38\files\wandb-summary.json
+2023-06-14 20:27:48,218 ERROR   gpu       :21476 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-06-14 20:27:48,342 DEBUG   HandlerThread:21476 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-14 20:27:48,342 DEBUG   SenderThread:21476 [sender.py:send_request():396] send_request: stop_status
+2023-06-14 20:27:48,723 INFO    Thread-12 :21476 [dir_watcher.py:_on_file_modified():289] file/dir modified: E:\important\Transformer\GANLDA1-master\wandb\run-20230614_202712-y43hkh38\files\output.log
+2023-06-14 20:27:49,513 DEBUG   HandlerThread:21476 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-14 20:27:49,515 DEBUG   SenderThread:21476 [sender.py:send():369] send: history
+2023-06-14 20:27:49,516 DEBUG   SenderThread:21476 [sender.py:send_request():396] send_request: summary_record
+2023-06-14 20:27:49,516 INFO    SenderThread:21476 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-06-14 20:27:49,737 INFO    Thread-12 :21476 [dir_watcher.py:_on_file_modified():289] file/dir modified: E:\important\Transformer\GANLDA1-master\wandb\run-20230614_202712-y43hkh38\files\wandb-summary.json
+2023-06-14 20:27:50,243 ERROR   gpu       :21476 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-06-14 20:27:50,744 INFO    Thread-12 :21476 [dir_watcher.py:_on_file_modified():289] file/dir modified: E:\important\Transformer\GANLDA1-master\wandb\run-20230614_202712-y43hkh38\files\output.log
+2023-06-14 20:27:51,477 DEBUG   HandlerThread:21476 [handler.py:handle_request():144] handle_request: status_report
+2023-06-14 20:27:52,284 ERROR   gpu       :21476 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-06-14 20:27:52,435 DEBUG   HandlerThread:21476 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-14 20:27:52,436 DEBUG   SenderThread:21476 [sender.py:send():369] send: history
+2023-06-14 20:27:52,437 DEBUG   SenderThread:21476 [sender.py:send_request():396] send_request: summary_record
+2023-06-14 20:27:52,437 INFO    SenderThread:21476 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-06-14 20:27:52,764 INFO    Thread-12 :21476 [dir_watcher.py:_on_file_modified():289] file/dir modified: E:\important\Transformer\GANLDA1-master\wandb\run-20230614_202712-y43hkh38\files\output.log
+2023-06-14 20:27:52,765 INFO    Thread-12 :21476 [dir_watcher.py:_on_file_modified():289] file/dir modified: E:\important\Transformer\GANLDA1-master\wandb\run-20230614_202712-y43hkh38\files\wandb-summary.json
+2023-06-14 20:27:54,306 ERROR   gpu       :21476 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-06-14 20:27:54,783 INFO    Thread-12 :21476 [dir_watcher.py:_on_file_modified():289] file/dir modified: E:\important\Transformer\GANLDA1-master\wandb\run-20230614_202712-y43hkh38\files\output.log
+2023-06-14 20:27:55,300 DEBUG   HandlerThread:21476 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-14 20:27:55,302 DEBUG   SenderThread:21476 [sender.py:send():369] send: history
+2023-06-14 20:27:55,303 DEBUG   SenderThread:21476 [sender.py:send_request():396] send_request: summary_record
+2023-06-14 20:27:55,303 INFO    SenderThread:21476 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-06-14 20:27:55,791 INFO    Thread-12 :21476 [dir_watcher.py:_on_file_modified():289] file/dir modified: E:\important\Transformer\GANLDA1-master\wandb\run-20230614_202712-y43hkh38\files\wandb-summary.json
+2023-06-14 20:27:56,328 ERROR   gpu       :21476 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-06-14 20:27:56,799 INFO    Thread-12 :21476 [dir_watcher.py:_on_file_modified():289] file/dir modified: E:\important\Transformer\GANLDA1-master\wandb\run-20230614_202712-y43hkh38\files\output.log
+2023-06-14 20:27:57,197 DEBUG   HandlerThread:21476 [handler.py:handle_request():144] handle_request: status_report
+2023-06-14 20:27:58,203 DEBUG   HandlerThread:21476 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-14 20:27:58,204 DEBUG   SenderThread:21476 [sender.py:send():369] send: history
+2023-06-14 20:27:58,205 DEBUG   SenderThread:21476 [sender.py:send_request():396] send_request: summary_record
+2023-06-14 20:27:58,205 INFO    SenderThread:21476 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-06-14 20:27:58,353 ERROR   gpu       :21476 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-06-14 20:27:58,812 INFO    Thread-12 :21476 [dir_watcher.py:_on_file_modified():289] file/dir modified: E:\important\Transformer\GANLDA1-master\wandb\run-20230614_202712-y43hkh38\files\output.log
+2023-06-14 20:27:58,813 INFO    Thread-12 :21476 [dir_watcher.py:_on_file_modified():289] file/dir modified: E:\important\Transformer\GANLDA1-master\wandb\run-20230614_202712-y43hkh38\files\wandb-summary.json
+2023-06-14 20:28:00,375 ERROR   gpu       :21476 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-06-14 20:28:00,837 INFO    Thread-12 :21476 [dir_watcher.py:_on_file_modified():289] file/dir modified: E:\important\Transformer\GANLDA1-master\wandb\run-20230614_202712-y43hkh38\files\output.log
+2023-06-14 20:28:01,012 DEBUG   HandlerThread:21476 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-14 20:28:01,014 DEBUG   SenderThread:21476 [sender.py:send():369] send: history
+2023-06-14 20:28:01,014 DEBUG   SenderThread:21476 [sender.py:send_request():396] send_request: summary_record
+2023-06-14 20:28:01,015 INFO    SenderThread:21476 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-06-14 20:28:01,846 INFO    Thread-12 :21476 [dir_watcher.py:_on_file_modified():289] file/dir modified: E:\important\Transformer\GANLDA1-master\wandb\run-20230614_202712-y43hkh38\files\wandb-summary.json
+2023-06-14 20:28:02,397 ERROR   gpu       :21476 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-06-14 20:28:02,841 DEBUG   HandlerThread:21476 [handler.py:handle_request():144] handle_request: status_report
+2023-06-14 20:28:02,853 INFO    Thread-12 :21476 [dir_watcher.py:_on_file_modified():289] file/dir modified: E:\important\Transformer\GANLDA1-master\wandb\run-20230614_202712-y43hkh38\files\output.log
+2023-06-14 20:28:03,600 DEBUG   HandlerThread:21476 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-14 20:28:03,601 DEBUG   SenderThread:21476 [sender.py:send_request():396] send_request: stop_status
+2023-06-14 20:28:03,772 DEBUG   HandlerThread:21476 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-14 20:28:03,864 DEBUG   SenderThread:21476 [sender.py:send():369] send: history
+2023-06-14 20:28:03,865 DEBUG   SenderThread:21476 [sender.py:send_request():396] send_request: summary_record
+2023-06-14 20:28:03,865 INFO    SenderThread:21476 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-06-14 20:28:03,866 INFO    Thread-12 :21476 [dir_watcher.py:_on_file_modified():289] file/dir modified: E:\important\Transformer\GANLDA1-master\wandb\run-20230614_202712-y43hkh38\files\wandb-summary.json
+2023-06-14 20:28:04,421 ERROR   gpu       :21476 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-06-14 20:28:04,880 INFO    Thread-12 :21476 [dir_watcher.py:_on_file_modified():289] file/dir modified: E:\important\Transformer\GANLDA1-master\wandb\run-20230614_202712-y43hkh38\files\output.log
+2023-06-14 20:28:06,441 ERROR   gpu       :21476 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-06-14 20:28:06,640 DEBUG   HandlerThread:21476 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-14 20:28:06,642 DEBUG   SenderThread:21476 [sender.py:send():369] send: history
+2023-06-14 20:28:06,642 DEBUG   SenderThread:21476 [sender.py:send_request():396] send_request: summary_record
+2023-06-14 20:28:06,643 INFO    SenderThread:21476 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-06-14 20:28:06,897 INFO    Thread-12 :21476 [dir_watcher.py:_on_file_modified():289] file/dir modified: E:\important\Transformer\GANLDA1-master\wandb\run-20230614_202712-y43hkh38\files\output.log
+2023-06-14 20:28:06,897 INFO    Thread-12 :21476 [dir_watcher.py:_on_file_modified():289] file/dir modified: E:\important\Transformer\GANLDA1-master\wandb\run-20230614_202712-y43hkh38\files\wandb-summary.json
+2023-06-14 20:28:08,443 DEBUG   HandlerThread:21476 [handler.py:handle_request():144] handle_request: status_report
+2023-06-14 20:28:08,453 ERROR   gpu       :21476 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-06-14 20:28:08,919 INFO    Thread-12 :21476 [dir_watcher.py:_on_file_modified():289] file/dir modified: E:\important\Transformer\GANLDA1-master\wandb\run-20230614_202712-y43hkh38\files\output.log
+2023-06-14 20:28:09,407 DEBUG   HandlerThread:21476 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-14 20:28:09,409 DEBUG   SenderThread:21476 [sender.py:send():369] send: history
+2023-06-14 20:28:09,409 DEBUG   SenderThread:21476 [sender.py:send_request():396] send_request: summary_record
+2023-06-14 20:28:09,410 INFO    SenderThread:21476 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-06-14 20:28:09,933 INFO    Thread-12 :21476 [dir_watcher.py:_on_file_modified():289] file/dir modified: E:\important\Transformer\GANLDA1-master\wandb\run-20230614_202712-y43hkh38\files\wandb-summary.json
+2023-06-14 20:28:10,484 ERROR   gpu       :21476 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-06-14 20:28:10,944 INFO    Thread-12 :21476 [dir_watcher.py:_on_file_modified():289] file/dir modified: E:\important\Transformer\GANLDA1-master\wandb\run-20230614_202712-y43hkh38\files\output.log
+2023-06-14 20:28:12,153 DEBUG   HandlerThread:21476 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-14 20:28:12,156 DEBUG   SenderThread:21476 [sender.py:send():369] send: history
+2023-06-14 20:28:12,156 DEBUG   SenderThread:21476 [sender.py:send_request():396] send_request: summary_record
+2023-06-14 20:28:12,158 INFO    SenderThread:21476 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-06-14 20:28:12,502 ERROR   gpu       :21476 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-06-14 20:28:12,967 INFO    Thread-12 :21476 [dir_watcher.py:_on_file_modified():289] file/dir modified: E:\important\Transformer\GANLDA1-master\wandb\run-20230614_202712-y43hkh38\files\output.log
+2023-06-14 20:28:12,967 INFO    Thread-12 :21476 [dir_watcher.py:_on_file_modified():289] file/dir modified: E:\important\Transformer\GANLDA1-master\wandb\run-20230614_202712-y43hkh38\files\wandb-summary.json
+2023-06-14 20:28:13,760 DEBUG   SystemMonitor:21476 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-06-14 20:28:13,761 DEBUG   SenderThread:21476 [sender.py:send():369] send: stats
+2023-06-14 20:28:13,762 DEBUG   HandlerThread:21476 [handler.py:handle_request():144] handle_request: status_report
+2023-06-14 20:28:14,553 ERROR   gpu       :21476 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-06-14 20:28:14,980 INFO    Thread-12 :21476 [dir_watcher.py:_on_file_modified():289] file/dir modified: E:\important\Transformer\GANLDA1-master\wandb\run-20230614_202712-y43hkh38\files\output.log
+2023-06-14 20:28:14,994 DEBUG   HandlerThread:21476 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-14 20:28:14,995 DEBUG   SenderThread:21476 [sender.py:send():369] send: history
+2023-06-14 20:28:14,996 DEBUG   SenderThread:21476 [sender.py:send_request():396] send_request: summary_record
+2023-06-14 20:28:14,996 INFO    SenderThread:21476 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-06-14 20:28:15,988 INFO    Thread-12 :21476 [dir_watcher.py:_on_file_modified():289] file/dir modified: E:\important\Transformer\GANLDA1-master\wandb\run-20230614_202712-y43hkh38\files\wandb-summary.json
+2023-06-14 20:28:16,575 ERROR   gpu       :21476 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-06-14 20:28:17,000 INFO    Thread-12 :21476 [dir_watcher.py:_on_file_modified():289] file/dir modified: E:\important\Transformer\GANLDA1-master\wandb\run-20230614_202712-y43hkh38\files\output.log
+2023-06-14 20:28:17,914 DEBUG   HandlerThread:21476 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-14 20:28:17,916 DEBUG   SenderThread:21476 [sender.py:send():369] send: history
+2023-06-14 20:28:17,916 DEBUG   SenderThread:21476 [sender.py:send_request():396] send_request: summary_record
+2023-06-14 20:28:17,917 INFO    SenderThread:21476 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-06-14 20:28:18,009 INFO    Thread-12 :21476 [dir_watcher.py:_on_file_modified():289] file/dir modified: E:\important\Transformer\GANLDA1-master\wandb\run-20230614_202712-y43hkh38\files\wandb-summary.json
+2023-06-14 20:28:18,599 ERROR   gpu       :21476 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-06-14 20:28:18,755 DEBUG   HandlerThread:21476 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-14 20:28:18,756 DEBUG   SenderThread:21476 [sender.py:send_request():396] send_request: stop_status
+2023-06-14 20:28:19,013 INFO    Thread-12 :21476 [dir_watcher.py:_on_file_modified():289] file/dir modified: E:\important\Transformer\GANLDA1-master\wandb\run-20230614_202712-y43hkh38\files\output.log
+2023-06-14 20:28:19,052 DEBUG   HandlerThread:21476 [handler.py:handle_request():144] handle_request: status_report
+2023-06-14 20:28:20,619 ERROR   gpu       :21476 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-06-14 20:28:21,025 DEBUG   HandlerThread:21476 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-14 20:28:21,028 DEBUG   SenderThread:21476 [sender.py:send():369] send: history
+2023-06-14 20:28:21,028 DEBUG   SenderThread:21476 [sender.py:send_request():396] send_request: summary_record
+2023-06-14 20:28:21,029 INFO    SenderThread:21476 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-06-14 20:28:21,029 INFO    Thread-12 :21476 [dir_watcher.py:_on_file_modified():289] file/dir modified: E:\important\Transformer\GANLDA1-master\wandb\run-20230614_202712-y43hkh38\files\output.log
+2023-06-14 20:28:21,030 INFO    Thread-12 :21476 [dir_watcher.py:_on_file_modified():289] file/dir modified: E:\important\Transformer\GANLDA1-master\wandb\run-20230614_202712-y43hkh38\files\wandb-summary.json
+2023-06-14 20:28:22,639 ERROR   gpu       :21476 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-06-14 20:28:23,036 INFO    Thread-12 :21476 [dir_watcher.py:_on_file_modified():289] file/dir modified: E:\important\Transformer\GANLDA1-master\wandb\run-20230614_202712-y43hkh38\files\output.log
+2023-06-14 20:28:24,011 DEBUG   HandlerThread:21476 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-14 20:28:24,013 DEBUG   SenderThread:21476 [sender.py:send():369] send: history
+2023-06-14 20:28:24,013 DEBUG   SenderThread:21476 [sender.py:send_request():396] send_request: summary_record
+2023-06-14 20:28:24,014 INFO    SenderThread:21476 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-06-14 20:28:24,044 INFO    Thread-12 :21476 [dir_watcher.py:_on_file_modified():289] file/dir modified: E:\important\Transformer\GANLDA1-master\wandb\run-20230614_202712-y43hkh38\files\wandb-summary.json
+2023-06-14 20:28:24,652 ERROR   gpu       :21476 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-06-14 20:28:25,021 DEBUG   HandlerThread:21476 [handler.py:handle_request():144] handle_request: status_report
+2023-06-14 20:28:25,054 INFO    Thread-12 :21476 [dir_watcher.py:_on_file_modified():289] file/dir modified: E:\important\Transformer\GANLDA1-master\wandb\run-20230614_202712-y43hkh38\files\output.log
+2023-06-14 20:28:26,682 ERROR   gpu       :21476 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-06-14 20:28:26,936 DEBUG   HandlerThread:21476 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-14 20:28:26,937 DEBUG   SenderThread:21476 [sender.py:send():369] send: history
+2023-06-14 20:28:26,938 DEBUG   SenderThread:21476 [sender.py:send_request():396] send_request: summary_record
+2023-06-14 20:28:26,938 INFO    SenderThread:21476 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-06-14 20:28:27,075 INFO    Thread-12 :21476 [dir_watcher.py:_on_file_modified():289] file/dir modified: E:\important\Transformer\GANLDA1-master\wandb\run-20230614_202712-y43hkh38\files\output.log
+2023-06-14 20:28:27,076 INFO    Thread-12 :21476 [dir_watcher.py:_on_file_modified():289] file/dir modified: E:\important\Transformer\GANLDA1-master\wandb\run-20230614_202712-y43hkh38\files\wandb-summary.json
+2023-06-14 20:28:28,706 ERROR   gpu       :21476 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-06-14 20:28:29,103 INFO    Thread-12 :21476 [dir_watcher.py:_on_file_modified():289] file/dir modified: E:\important\Transformer\GANLDA1-master\wandb\run-20230614_202712-y43hkh38\files\output.log
+2023-06-14 20:28:29,683 DEBUG   HandlerThread:21476 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-14 20:28:29,685 DEBUG   SenderThread:21476 [sender.py:send():369] send: history
+2023-06-14 20:28:29,685 DEBUG   SenderThread:21476 [sender.py:send_request():396] send_request: summary_record
+2023-06-14 20:28:29,686 INFO    SenderThread:21476 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-06-14 20:28:30,109 INFO    Thread-12 :21476 [dir_watcher.py:_on_file_modified():289] file/dir modified: E:\important\Transformer\GANLDA1-master\wandb\run-20230614_202712-y43hkh38\files\wandb-summary.json
+2023-06-14 20:28:30,693 DEBUG   HandlerThread:21476 [handler.py:handle_request():144] handle_request: status_report
+2023-06-14 20:28:30,721 ERROR   gpu       :21476 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-06-14 20:28:31,122 INFO    Thread-12 :21476 [dir_watcher.py:_on_file_modified():289] file/dir modified: E:\important\Transformer\GANLDA1-master\wandb\run-20230614_202712-y43hkh38\files\output.log
+2023-06-14 20:28:32,553 DEBUG   HandlerThread:21476 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-14 20:28:32,554 DEBUG   SenderThread:21476 [sender.py:send():369] send: history
+2023-06-14 20:28:32,555 DEBUG   SenderThread:21476 [sender.py:send_request():396] send_request: summary_record
+2023-06-14 20:28:32,555 INFO    SenderThread:21476 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-06-14 20:28:32,749 ERROR   gpu       :21476 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-06-14 20:28:33,144 INFO    Thread-12 :21476 [dir_watcher.py:_on_file_modified():289] file/dir modified: E:\important\Transformer\GANLDA1-master\wandb\run-20230614_202712-y43hkh38\files\output.log
+2023-06-14 20:28:33,144 INFO    Thread-12 :21476 [dir_watcher.py:_on_file_modified():289] file/dir modified: E:\important\Transformer\GANLDA1-master\wandb\run-20230614_202712-y43hkh38\files\wandb-summary.json
+2023-06-14 20:28:33,760 DEBUG   HandlerThread:21476 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-14 20:28:33,761 DEBUG   SenderThread:21476 [sender.py:send_request():396] send_request: stop_status
+2023-06-14 20:28:34,766 ERROR   gpu       :21476 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-06-14 20:28:35,170 INFO    Thread-12 :21476 [dir_watcher.py:_on_file_modified():289] file/dir modified: E:\important\Transformer\GANLDA1-master\wandb\run-20230614_202712-y43hkh38\files\output.log
+2023-06-14 20:28:35,286 DEBUG   HandlerThread:21476 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-14 20:28:35,288 DEBUG   SenderThread:21476 [sender.py:send():369] send: history
+2023-06-14 20:28:35,288 DEBUG   SenderThread:21476 [sender.py:send_request():396] send_request: summary_record
+2023-06-14 20:28:35,289 INFO    SenderThread:21476 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-06-14 20:28:36,182 INFO    Thread-12 :21476 [dir_watcher.py:_on_file_modified():289] file/dir modified: E:\important\Transformer\GANLDA1-master\wandb\run-20230614_202712-y43hkh38\files\wandb-summary.json
+2023-06-14 20:28:36,292 DEBUG   HandlerThread:21476 [handler.py:handle_request():144] handle_request: status_report
+2023-06-14 20:28:36,780 ERROR   gpu       :21476 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-06-14 20:28:37,192 INFO    Thread-12 :21476 [dir_watcher.py:_on_file_modified():289] file/dir modified: E:\important\Transformer\GANLDA1-master\wandb\run-20230614_202712-y43hkh38\files\output.log
+2023-06-14 20:28:38,110 DEBUG   HandlerThread:21476 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-14 20:28:38,112 DEBUG   SenderThread:21476 [sender.py:send():369] send: history
+2023-06-14 20:28:38,113 DEBUG   SenderThread:21476 [sender.py:send_request():396] send_request: summary_record
+2023-06-14 20:28:38,114 INFO    SenderThread:21476 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-06-14 20:28:38,200 INFO    Thread-12 :21476 [dir_watcher.py:_on_file_modified():289] file/dir modified: E:\important\Transformer\GANLDA1-master\wandb\run-20230614_202712-y43hkh38\files\wandb-summary.json
+2023-06-14 20:28:38,795 ERROR   gpu       :21476 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-06-14 20:28:39,210 INFO    Thread-12 :21476 [dir_watcher.py:_on_file_modified():289] file/dir modified: E:\important\Transformer\GANLDA1-master\wandb\run-20230614_202712-y43hkh38\files\output.log
+2023-06-14 20:28:40,808 ERROR   gpu       :21476 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-06-14 20:28:41,010 DEBUG   HandlerThread:21476 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-14 20:28:41,011 DEBUG   SenderThread:21476 [sender.py:send():369] send: history
+2023-06-14 20:28:41,012 DEBUG   SenderThread:21476 [sender.py:send_request():396] send_request: summary_record
+2023-06-14 20:28:41,012 INFO    SenderThread:21476 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-06-14 20:28:41,224 INFO    Thread-12 :21476 [dir_watcher.py:_on_file_modified():289] file/dir modified: E:\important\Transformer\GANLDA1-master\wandb\run-20230614_202712-y43hkh38\files\output.log
+2023-06-14 20:28:41,224 INFO    Thread-12 :21476 [dir_watcher.py:_on_file_modified():289] file/dir modified: E:\important\Transformer\GANLDA1-master\wandb\run-20230614_202712-y43hkh38\files\wandb-summary.json
+2023-06-14 20:28:42,014 DEBUG   HandlerThread:21476 [handler.py:handle_request():144] handle_request: status_report
+2023-06-14 20:28:42,838 ERROR   gpu       :21476 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-06-14 20:28:43,244 INFO    Thread-12 :21476 [dir_watcher.py:_on_file_modified():289] file/dir modified: E:\important\Transformer\GANLDA1-master\wandb\run-20230614_202712-y43hkh38\files\output.log
+2023-06-14 20:28:43,720 DEBUG   HandlerThread:21476 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-14 20:28:43,722 DEBUG   SenderThread:21476 [sender.py:send():369] send: history
+2023-06-14 20:28:43,722 DEBUG   SenderThread:21476 [sender.py:send_request():396] send_request: summary_record
+2023-06-14 20:28:43,723 INFO    SenderThread:21476 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-06-14 20:28:43,769 DEBUG   SenderThread:21476 [sender.py:send():369] send: stats
+2023-06-14 20:28:44,246 INFO    Thread-12 :21476 [dir_watcher.py:_on_file_modified():289] file/dir modified: E:\important\Transformer\GANLDA1-master\wandb\run-20230614_202712-y43hkh38\files\wandb-summary.json
+2023-06-14 20:28:44,897 ERROR   gpu       :21476 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-06-14 20:28:45,255 INFO    Thread-12 :21476 [dir_watcher.py:_on_file_modified():289] file/dir modified: E:\important\Transformer\GANLDA1-master\wandb\run-20230614_202712-y43hkh38\files\output.log
+2023-06-14 20:28:46,578 DEBUG   HandlerThread:21476 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-14 20:28:46,580 DEBUG   SenderThread:21476 [sender.py:send():369] send: history
+2023-06-14 20:28:46,580 DEBUG   SenderThread:21476 [sender.py:send_request():396] send_request: summary_record
+2023-06-14 20:28:46,581 INFO    SenderThread:21476 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-06-14 20:28:46,915 ERROR   gpu       :21476 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-06-14 20:28:47,269 INFO    Thread-12 :21476 [dir_watcher.py:_on_file_modified():289] file/dir modified: E:\important\Transformer\GANLDA1-master\wandb\run-20230614_202712-y43hkh38\files\output.log
+2023-06-14 20:28:47,269 INFO    Thread-12 :21476 [dir_watcher.py:_on_file_modified():289] file/dir modified: E:\important\Transformer\GANLDA1-master\wandb\run-20230614_202712-y43hkh38\files\wandb-summary.json
+2023-06-14 20:28:47,583 DEBUG   HandlerThread:21476 [handler.py:handle_request():144] handle_request: status_report
+2023-06-14 20:28:48,936 ERROR   gpu       :21476 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-06-14 20:28:49,187 DEBUG   HandlerThread:21476 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-14 20:28:49,188 DEBUG   SenderThread:21476 [sender.py:send_request():396] send_request: stop_status
+2023-06-14 20:28:49,289 INFO    Thread-12 :21476 [dir_watcher.py:_on_file_modified():289] file/dir modified: E:\important\Transformer\GANLDA1-master\wandb\run-20230614_202712-y43hkh38\files\output.log
+2023-06-14 20:28:49,365 DEBUG   HandlerThread:21476 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-14 20:28:49,497 DEBUG   SenderThread:21476 [sender.py:send():369] send: history
+2023-06-14 20:28:49,498 DEBUG   SenderThread:21476 [sender.py:send_request():396] send_request: summary_record
+2023-06-14 20:28:49,499 INFO    SenderThread:21476 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-06-14 20:28:50,306 INFO    Thread-12 :21476 [dir_watcher.py:_on_file_modified():289] file/dir modified: E:\important\Transformer\GANLDA1-master\wandb\run-20230614_202712-y43hkh38\files\wandb-summary.json
+2023-06-14 20:28:50,963 ERROR   gpu       :21476 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-06-14 20:28:51,309 INFO    Thread-12 :21476 [dir_watcher.py:_on_file_modified():289] file/dir modified: E:\important\Transformer\GANLDA1-master\wandb\run-20230614_202712-y43hkh38\files\output.log
+2023-06-14 20:28:52,345 DEBUG   HandlerThread:21476 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-14 20:28:52,346 DEBUG   SenderThread:21476 [sender.py:send():369] send: history
+2023-06-14 20:28:52,347 DEBUG   SenderThread:21476 [sender.py:send_request():396] send_request: summary_record
+2023-06-14 20:28:52,348 INFO    SenderThread:21476 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-06-14 20:28:52,981 ERROR   gpu       :21476 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-06-14 20:28:53,336 INFO    Thread-12 :21476 [dir_watcher.py:_on_file_modified():289] file/dir modified: E:\important\Transformer\GANLDA1-master\wandb\run-20230614_202712-y43hkh38\files\output.log
+2023-06-14 20:28:53,336 INFO    Thread-12 :21476 [dir_watcher.py:_on_file_modified():289] file/dir modified: E:\important\Transformer\GANLDA1-master\wandb\run-20230614_202712-y43hkh38\files\wandb-summary.json
+2023-06-14 20:28:53,350 DEBUG   HandlerThread:21476 [handler.py:handle_request():144] handle_request: status_report
+2023-06-14 20:28:54,997 ERROR   gpu       :21476 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-06-14 20:28:55,347 DEBUG   HandlerThread:21476 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-14 20:28:55,349 DEBUG   SenderThread:21476 [sender.py:send():369] send: history
+2023-06-14 20:28:55,350 DEBUG   SenderThread:21476 [sender.py:send_request():396] send_request: summary_record
+2023-06-14 20:28:55,350 INFO    SenderThread:21476 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-06-14 20:28:55,351 INFO    Thread-12 :21476 [dir_watcher.py:_on_file_modified():289] file/dir modified: E:\important\Transformer\GANLDA1-master\wandb\run-20230614_202712-y43hkh38\files\output.log
+2023-06-14 20:28:55,352 INFO    Thread-12 :21476 [dir_watcher.py:_on_file_modified():289] file/dir modified: E:\important\Transformer\GANLDA1-master\wandb\run-20230614_202712-y43hkh38\files\wandb-summary.json
+2023-06-14 20:28:57,018 ERROR   gpu       :21476 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-06-14 20:28:57,368 INFO    Thread-12 :21476 [dir_watcher.py:_on_file_modified():289] file/dir modified: E:\important\Transformer\GANLDA1-master\wandb\run-20230614_202712-y43hkh38\files\output.log
+2023-06-14 20:28:58,192 DEBUG   HandlerThread:21476 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-14 20:28:58,194 DEBUG   SenderThread:21476 [sender.py:send():369] send: history
+2023-06-14 20:28:58,194 DEBUG   SenderThread:21476 [sender.py:send_request():396] send_request: summary_record
+2023-06-14 20:28:58,195 INFO    SenderThread:21476 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-06-14 20:28:58,379 INFO    Thread-12 :21476 [dir_watcher.py:_on_file_modified():289] file/dir modified: E:\important\Transformer\GANLDA1-master\wandb\run-20230614_202712-y43hkh38\files\wandb-summary.json
+2023-06-14 20:28:59,048 ERROR   gpu       :21476 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-06-14 20:28:59,205 DEBUG   HandlerThread:21476 [handler.py:handle_request():144] handle_request: status_report
+2023-06-14 20:28:59,380 INFO    Thread-12 :21476 [dir_watcher.py:_on_file_modified():289] file/dir modified: E:\important\Transformer\GANLDA1-master\wandb\run-20230614_202712-y43hkh38\files\output.log
+2023-06-14 20:29:00,130 INFO    memory    :21476 [interfaces.py:monitor():140] Process proc.memory.rssMB has exited.
+2023-06-14 20:29:00,130 DEBUG   SystemMonitor:21476 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-06-14 20:29:00,134 DEBUG   SystemMonitor:21476 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-06-14 20:29:00,156 DEBUG   SenderThread:21476 [sender.py:send():369] send: stats
+2023-06-14 20:29:02,686 INFO    MainThread:21476 [internal.py:handle_exit():76] Internal process exited

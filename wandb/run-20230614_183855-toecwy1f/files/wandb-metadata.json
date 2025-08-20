@@ -1,0 +1,44 @@
+{
+    "os": "Windows-10-10.0.19045-SP0",
+    "python": "3.10.10",
+    "heartbeatAt": "2023-06-14T10:38:56.403727",
+    "startedAt": "2023-06-14T10:38:55.344829",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "E:\\important\\Transformer\\GANLDA1-master\\main2.py",
+    "codePath": "main2.py",
+    "host": "DESKTOP-6CHOV3A",
+    "username": "\u6237\u632f\u5eb7",
+    "executable": "E:\\Anaconda\\envs\\py310\\python.exe",
+    "cpu_count": 14,
+    "cpu_count_logical": 20,
+    "cpu_freq": {
+        "current": 2700.0,
+        "min": 0.0,
+        "max": 2700.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2700.0,
+            "min": 0.0,
+            "max": 2700.0
+        }
+    ],
+    "disk": {
+        "total": 324.71972274780273,
+        "used": 161.18154907226562
+    },
+    "gpu": "NVIDIA GeForce RTX 3060 Laptop GPU",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 3060 Laptop GPU",
+            "memory_total": 6442450944
+        }
+    ],
+    "memory": {
+        "total": 15.730949401855469
+    }
+}

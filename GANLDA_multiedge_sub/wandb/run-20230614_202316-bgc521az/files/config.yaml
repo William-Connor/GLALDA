@@ -1,0 +1,66 @@
+wandb_version: 1
+
+att_drop_rate:
+  desc: null
+  value: 0.1
+dataset:
+  desc: null
+  value: dataset1
+fold:
+  desc: null
+  value: 0
+gan_in_channels:
+  desc: null
+  value: 1147
+gan_out_channels:
+  desc: null
+  value: 8
+hid:
+  desc: null
+  value: 128
+hid1:
+  desc: null
+  value: 256
+hid2:
+  desc: null
+  value: 512
+lr:
+  desc: null
+  value: 0.01
+n_head:
+  desc: null
+  value: 1
+weight_decay:
+  desc: null
+  value: 2.7454092680334965e-06
+_wandb:
+  desc: null
+  value:
+    python_version: 3.10.10
+    cli_version: 0.15.4
+    framework: torch
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    start_time: 1686745396.164605
+    t:
+      1:
+      - 1
+      - 5
+      - 53
+      - 55
+      - 76
+      2:
+      - 1
+      - 5
+      - 53
+      - 55
+      - 76
+      3:
+      - 1
+      - 23
+      - 37
+      4: 3.10.10
+      5: 0.15.4
+      8:
+      - 3
+      - 5
